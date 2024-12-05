@@ -1,0 +1,24 @@
+.master{
+    height: 700px;
+    margin-top: 10px;
+    background-image: url("welcome.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heading {
+    font-size: '2.5rem';
+    margin-bottom: '20px';
+    color: white;
+}
+
+.content{
+    font-size: '1.1rem';
+    line-height: '1.6';
+    color: white;
+    font-style: 'italic';
+    margin: 0 auto;
+    max-width: 600px;
+}

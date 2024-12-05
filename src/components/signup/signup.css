@@ -1,0 +1,99 @@
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 0;
+  height: 100vh;  
+}
+
+.signup-box {
+  color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 20%;
+  background-color: black;
+  text-align: center;
+}
+
+.sub-signup {
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.signup-button:hover {
+  background-color: #b7b7b7;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line {
+  width: 40%;
+  border: none;
+  border-top: 1px solid white;
+}
+
+.divider-text {
+  margin: 0 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.form-element {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.label-text {
+  display: block;
+  margin: auto;
+  font-weight: 500;
+}
+
+.input-signup {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit:hover {
+  background-color: #b7b7b7;
+}

@@ -1,0 +1,46 @@
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+body {
+    background-color: black;
+}
+  
+  .nav-list{
+    width: 30%;
+  }
+  
+  .nav-list ul{
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .logo{
+    width: 20%;
+    color: white;
+  }
+  
+  .nav-list li{
+    list-style: none;
+  }
+  
+  .active{
+    color: #17a2b8;
+  }
+  
+  .btn{
+    background-color: #17a2b8;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+  }

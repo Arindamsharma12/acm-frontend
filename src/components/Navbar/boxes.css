@@ -1,0 +1,31 @@
+.master {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 100px; 
+    height: 100px; 
+    background-color: #3498db; 
+    border-radius: 50%; 
+    position: absolute;
+    top: -50px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box {
+    width: 300px; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 8px; 
+    margin-top: 7px; 
+}

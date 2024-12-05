@@ -1,0 +1,58 @@
+.master {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-image {
+    background-image: url("events-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heading {
+    color: #b7b7b7;
+    text-align: center;
+    top: 20px;
+    position: absolute;
+    font-size: 3rem;
+    z-index: 1;
+    font-family: "Raleway", sans-serif;
+}
+
+.events-img{
+    width: "500px";
+    height: "280px";
+    margin: "0 auto";
+}
+
+.event-section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; Center items for smaller screens */
+    /* flex-wrap: wrap; Allow wrapping for responsiveness */
+    /* margin-top: 50px; */
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+}

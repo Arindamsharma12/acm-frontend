@@ -1,0 +1,28 @@
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand img {
+  background-color: black; /* Match navbar background */
+  border-radius: 4px; /* Optional: Add rounding for smooth edges */
+  padding: 2px; /* Optional: Add spacing around the image */
+}
+
+/* Custom Font Style */
+.custom-font {
+  font-family: 'Poppins', sans-serif; /* Example: Using Poppins font */
+  font-weight: 500; /* Semi-bold */
+  font-size: 1rem; /* Adjust size */
+  text-transform: uppercase; /* Optional: Make text uppercase */
+}
+
+/* Navbar Link Styling */
+.navbar-nav .nav-link {
+  color: white !important; /* Ensure text is white */
+  margin-left: 15px; /* Add spacing between links */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b7b7b7 !important; /* Hover effect with custom color */
+}
